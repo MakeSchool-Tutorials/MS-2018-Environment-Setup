@@ -11,7 +11,7 @@ You should update and install your iOS development environment before the Python
 
 To install Xcode 8, you need OS X 10.11.5 or newer, so you should install that first.
 
-Then Xcode 8 is an easy download in the Mac App Store. After it's installed, you should open Xcode to allow it to do some additional installation and configuration.
+Then Xcode 8 is an easy download in the Mac App Store. After it's installed, you should open Xcode to allow it to do some additional installation and configuration. Note that if you have been using the beta version of Xcode 8 before, you need to delete this from your computer and then your Xcode 7 version will just be upgraded through the App Store (so you should end up with only one version of Xcode). 
 
 ##Command Line Tools
 
