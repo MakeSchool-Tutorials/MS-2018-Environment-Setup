@@ -3,11 +3,11 @@ title: "Python Install Instructions"
 slug: python-install-instructions
 ---
 
-#Python Environment
+# Python Environment
 
 Make sure you install the iOS environment first - the instructions assume you have, because you will need Command Line Tools and Homebrew installed already.
 
-##Python 3
+## Python 3
 
 OS X comes with a version of Python (2.7) installed by default. We can call that the *system Python*. But that version is old! Python 3 was released in 2008, and it came with a bunch of syntax changes that were incompatible with 2.x versions of Python. This created a fork in the language, as many large Python projects (including many helpful libraries) didn't want to invest the time to convert to 3.x.  But that was then; it's now recommended that all new Python projects are made in Python 3.x. For more information, see [this article](https://wiki.python.org/moin/Python2orPython3).
 
@@ -19,13 +19,13 @@ Use Homebrew to install Python 3 and its dependencies:
 
 	$ brew install python3
 
-Once that's finished, you should be able to see which version of Python installed like this:
+Once that's finished, you should be able to see which version of Python is installed like this:
 
 	$ python3 --version
 
 That will also install the Python package manager, called `pip`, which can be used to download Python libraries. Because we're using Python 3, you should always use `pip3`, which is the Python 3 version.
 
-##Virtualenv
+## Virtualenv
 
 By default, `pip` and `pip3` install packages into a directory used by Python system-wide. This can create problems, because different Python projects might be dependent on different versions of libraries. Upgrading a library on one project might break all of your other projects, which is a nightmare.
 
@@ -37,13 +37,13 @@ To install `virtualenv`, use the following command
 
 As you create each Python project, you will also want to create an associated virtual environment in which you can install packages.
 
-#Atom
+# Atom
 
 Download and install Atom. Atom is a an open-source text editor maintained by Github, that we will use to write our Python source.
 
 [https://atom.io/](https://atom.io/)
 
-##Atom Python Packages
+## Atom Python Packages
 
 *These instructions are derived from [this blog post](http://www.marinamele.com/install-and-configure-atom-editor-for-python)*.
 
@@ -102,7 +102,7 @@ In my case, `flake8` was here:
 
 Now there's a few more Atom settings to check.
 
-##Atom Settings
+## Atom Settings
 
 There's long been a religious war between proponents of tabs and spaces in source code. It's a particularly important topic in Python programming, because white space is actually part of the syntax. The Python Style Guide, known as [PEP8](https://www.python.org/dev/peps/pep-0008/) says that Python code should use only spaces, cannot mix spaces and tabs, and that code blocks should be indented by 4 spaces each.
 
@@ -116,9 +116,9 @@ Then scroll down and make sure tabs emit 4 spaces:
 
 ![Tab Length 4](tabsLength.png)
 
-##Testing it Out
+## Testing It Out
 
-Now we can test our environment. Restart Atom. Then create a new file and save it as *test.py*. Or anything.py really, but make sure it has the .py extension, so that Atom knows that it's Python source.
+Now we can test our environment. Restart Atom. Then create a new file and save it as `test.py`. Or *anything*`.py` really, but make sure the filename has the `.py` extension so that Atom knows that it's Python source code.
 
 Try testing some gibberish in the editor - you should see the linter issues appear at the bottom:
 
