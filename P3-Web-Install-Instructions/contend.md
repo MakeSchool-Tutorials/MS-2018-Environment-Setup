@@ -12,12 +12,13 @@ You will need node to run Express, packagers such as NPM and build systems like 
 Visit [Nodejs.org](https://nodejs.org/en/). 
 
 Download the latest version for your system. There should be a big green button. 
+Choose the button on the left it should show LTS (Long Term Support). 
 
 ![screenshot-1.png](screenshot-1.png)
 
 This should download the installer. Run the installer. 
 
-![screenshot-1.png](screenshot-1.png)
+![screenshot-2.png](screenshot-2.png)
 
 Follow the instructions. 
 
@@ -31,4 +32,4 @@ Open the Terminal. Check your Node version by entering the following:
 
 `node -v`
 
-You should see something like: `v8.4.0` or `v6.1.4` or which ever version you installed. 
+You should see something like: `v6.11.3` or which ever version you installed. 
