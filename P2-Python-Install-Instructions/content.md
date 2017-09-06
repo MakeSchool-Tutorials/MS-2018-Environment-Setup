@@ -53,6 +53,8 @@ First we'll use the Atom Package Manager to install `linter`. Linter provides a 
 
 	$ apm install linter
 
+*If that didn't work and you see an error like `-bash: apm: command not found`, you need to install `apm` as a shell command accessible from the Terminal. In the menu, go to Atom --> Install Shell Commands and try again.*
+
 Next we'll install the Python linting package, which is called `flake8`. There are two components - one which is a Python package, which takes the actual Python text and checks it with the compiler. We'll install that now.
 
 	$ pip3 install flake8
