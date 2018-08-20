@@ -1,22 +1,20 @@
 ---
-title: "Communication & Accountability"
-slug: communication-and-Accountability
+title: "Focus & Accountability"
+slug: focus-and-Accountability
 ---
+
+# Turn Off Notifications
+
+
+# Rescue Time & Self Control
+
+
+# Setting Up Music
+
+Music can help you focus, but it can also
 
 
 # Mail Client
 
 
 # WakaTime
-
-
-
-# Turn Off Notifications
-Email
-Slack
-Message
-Rescue Time
-Self Control
-Setting Up Music
-
-CheatSheet
