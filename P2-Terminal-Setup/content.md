@@ -52,7 +52,15 @@ Let's add more more thing which is a folder for your courses. In this folder you
 
 # Cheatsheet
 
-CheatSheet
+The faster you are on your keyboard, the faster you can learn to code.
+
+As you start at Make School dedicate time to learning and improving your keyboard speed, especially manipulating text and keyboard shortcuts.
+
+Here is a tool to find the keyboard shortcuts for any application you are using.
+
+[Cheatsheet](https://www.mediaatelier.com/CheatSheet/)
+
+Download and install it. Spend some time finding the keyboard shortcuts for your browser and Atom.
 
 # Show Hidden Files
 
@@ -70,21 +78,3 @@ Then restart Finder by right clicking the Finder icon while holding the *option/
 
 > [info]
 > It's easy to reverse this change - just follow the same steps, replacing `YES` with `NO`.
-
-# Homebrew
-
-Homebrew is a package manager for Mac OS. It makes it easy to install software packages while also installing and managing their dependencies. For more information, see the [Homebrew website](http://brew.sh/)
-
-To install Homebrew, run this terminal command, which will download and run an install script:
-
-```bash
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-If you already have Homebrew installed, you need to update your formulae by running:
-
-```bash
-$ brew update
-```
-
-This may take several minutes to download updates, so be patient while it completes.
