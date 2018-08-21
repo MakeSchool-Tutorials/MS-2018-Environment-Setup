@@ -3,8 +3,15 @@ title: "Focus & Accountability"
 slug: focus-and-Accountability
 ---
 
-# Turn Off Notifications
+People kept calling Einstein a genius. He got frustrated and said "Genius is focus". He meant that genius to him was just being able to stay focused. For our purposes, staying focused means not getting distracted. So let's look at some strategies to stay focused and avoid distractions.
 
+# Turn Off All Desktop Notifications
+
+Head back over to system preferences, and click on "Notifications".
+
+Select Mail, Messages, Discord, Slack, Calendar, and any other app that might throw a lot of notifications and mark all of their alert styles to "None".
+
+You will still check these apps, but you will check them on your time, not because they shoot a notification at you when you are trying to focus on something else.
 
 # WakaTime
 
@@ -18,7 +25,7 @@ WakaTime was invented by one of Captain Rainbow's friends Alan Hamlett. It gives
 
 # Rescue Time & Self Control
 
-People kept calling Einstein a genius. He got frustrated and said "Genius is focus". Staying focused means not getting distracted. Here are some tools to not get distracted. Download them and install them, and then put a reminder on your calendar to try them out.
+Here are some tools to not get distracted. Download them and install them, and then put a reminder on your calendar to try them out.
 
 [Rescue Time](https://www.rescuetime.com/)
 

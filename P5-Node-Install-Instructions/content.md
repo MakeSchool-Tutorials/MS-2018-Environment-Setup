@@ -68,7 +68,13 @@ Node.js has many many versions, and different projects will require you to run a
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
   ```
 
-1. Step three - verify you got nvm installed correctly by running the following command. It should return the text `nvm` if your instance is working.
+1. Step three - either restart your terminal or source your rc with this command so the path you just exported is respected.
+
+  ```bash
+  $ source ~/.zshrc
+  ```
+
+1. Step four - verify you got nvm installed correctly by running the following command. It should return the text `nvm` if your instance is working.
 
   ```bash
   $ command -v nvm
