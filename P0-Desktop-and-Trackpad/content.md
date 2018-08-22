@@ -9,14 +9,22 @@ Let's setup our desktop and some gestures on our trackpads.
 
 You paid a lot for that computer, let's get the maximum space out of the screen. First we'll hide the dock.
 
-Use spotlight (`command`+`spacebar`) to open system preferences, and click on "Dock". Set the dock's position to the right side of the screen and set it to "Automatically hide and show the Dock".
+1. Use spotlight (`command`+`spacebar`) to open system preferences
+1. Click on "Dock".
+1. Set the dock's position to the right side of the screen
+1. Set the dock to "Automatically hide and show the Dock".
 
 >[info]
-> Don't worry about using the dock too much, instead use Spotlight - `command`+`spacebar` to open applications.
+> Instead of the dock, use Spotlight - `command`+`spacebar` to open applications more quickly
 
 # More Maximizing Screen Space
 
-Another trick to getting get even more space, return to system settings and go into "Display". Click on "Scaled" and choose "More Space".
+Another trick to getting get even more space:
+
+1. Return to system settings
+1. Go into "Display"
+1. Click on "Scaled"
+1. Choose "More Space".
 
 # Three Finger Drag
 
