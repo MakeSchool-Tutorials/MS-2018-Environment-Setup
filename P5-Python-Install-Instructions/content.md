@@ -64,3 +64,63 @@ Now we can test our environment. Restart Atom. Then create a new file and save i
 Try testing some gibberish in the editor - you should see the linter issues appear at the bottom:
 
 ![Linter Issues](linterIssues.png)
+
+
+# Atom Python Packages
+
+*These instructions are derived from [this blog post](http://www.marinamele.com/install-and-configure-atom-editor-for-python)*.
+
+We're going to install some packages for Atom that makes writing Python much faster by providing real-time validation of your code. In general, these programs are called *linters*.
+
+First we'll use the Atom Package Manager to install `linter`. Linter provides a single api that all the language-specific linters can use to interact with Atom.
+
+	$ apm install linter
+
+*If that didn't work and you see an error like `-bash: apm: command not found`, you need to install `apm` as a shell command accessible from the Terminal. In the menu, go to Atom --> Install Shell Commands and try again.*
+
+Next we'll install the Python linting package, which is called `flake8`. There are two components - one which is a Python package, which takes the actual Python text and checks it with the compiler. We'll install that now.
+
+	$ pip3 install flake8
+	$ pip3 install flake8-docstrings
+
+The other component is the Atom package that acts as the glue between `flake8` and `linter` to provide Atom with the real time validation.
+
+	$ apm install linter-flake8
+
+Finally, we have to make some changes to Atom. First we'll change the init script that runs every time Atom is opened.
+
+In the menu, go to Atom --> Open Your Init Script.
+
+![Open Your Init Script](openInitScript.png)
+
+Add the following line at the bottom:
+
+	process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
+
+Save that file.
+
+Next we need to change a setting in the `linter-flake8` package. Go to the Atom Preferences page from the Atom menu. Click the packages menu item.
+
+![Packages](packages.png)
+
+Find the `linter-flake8` package and click the settings button.
+
+*NOTE: If you don't see a settings button, try restarting Atom. Also ensure that you installed Atom into your Applications directory and that you're running that Atom.*
+
+![linter-flake8](linterflake8.png)
+
+Find the executable path setting:
+
+![Executable Path Setting](executablePath.png)
+
+To figure out where the `flake8` executable is located in our filesystem, we can use the `which` command. Go to the terminal and type:
+
+	$ which flake8
+
+Take the result of that command, and paste it into the exectuable path setting in Atom.
+
+> [info]
+>
+In my case, `flake8` was here:
+>
+	/Library/Frameworks/Python.framework/Versions/3.5/bin/flake8
