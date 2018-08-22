@@ -7,48 +7,54 @@ A developer lives in their terminal. So we're going to make our terminal pretty 
 
 # Making Your Terminal Professional
 
-Use the keyboard shortcut `command` + `spacebar` and type "terminal" to open your terminal.
+1. Use the keyboard shortcut `command` + `spacebar` and type "terminal" to open your terminal.
 
-Now use the keyboard shortcut `command` + `,` to open your preferences (this keyboards shortcut works for every program on your computer!).
+1. Now use the keyboard shortcut `command` + `,` to open your preferences (this keyboards shortcut works for every program on your computer!).
 
-Set your profile to "Pro" and click "Default".
+1. Set your profile to "Pro" and click "Default".
+
+Looking professional!
 
 # Adding Oh-My-Zsh
 
 Next we're going to enhance our terminal with [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh), a zsh shell configuration. (It will make your terminal pretty and work better).
 
-Install oh-my-zsh by pasting in this command. (remember that the `$` is the beginning of you shell line, and do not include it when you paste.)
+1. Install oh-my-zsh by pasting in this command. (remember that the `$` is the beginning of you shell line, and do not include it when you paste.)
 
-```bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+	```bash
+	$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+	```
 
-Now close and restart your terminal and you should see a colorful little terminal prompt now.  
+1. Now close and restart your terminal and you should see a colorful little terminal prompt now.  
 
-```bash
--> ~
-```
+	```bash
+	-> ~
+	```
+
+Nice!
 
 # Making a dev or code directory
 
-Any good developer has a well organized computer. Always keep your folders, files, and desktop clean and organized.
+All good developers have well organized folders and files in their computer. Always keep your folders, files, and desktop clean and organized. It will make you work faster and look and feel more professional.
 
-A best practice to organize your code projects is to create one folder called either `dev` or `code` in the root of your computer. Use your terminal to make this now.
+A best practice to organize your code projects is to create one folder called either `dev` or `code` in the root of your computer.
 
-```bash
--> ~ mkdir dev
--> dev
--> dev mkdir courses
-```
+1. Use your terminal to make this now.
 
-Now you are in your dev folder. You should move your portfolio coding projects into this folder and also where you should instantiate all new portfolio coding projects.
+	```bash
+	-> ~ mkdir dev
+	-> dev
+	-> dev mkdir courses
+	```
 
-Let's add more more thing which is a folder for your courses. In this folder you can make directories for your coursework.
+1. Now you are in your `dev` folder. You should move your portfolio coding projects into this folder and also where you should instantiate all new portfolio coding projects.
 
-```bash
--> dev
--> dev mkdir courses
-```
+1. Let's add more more thing which is a folder for your courses. In this folder you can make directories for your coursework.
+
+	```bash
+	-> dev
+	-> dev mkdir courses
+	```
 
 # Show Hidden Files
 
@@ -56,13 +62,15 @@ As a developer, it's often very useful to be able to see hidden files and folder
 
 It's useful, because command line tools are installed in hidden folders, Git repositories live in hidden `.git` directories, your bash path file is a hidden file, etc.
 
-To do this, type this command into your command prompt:
+1. To do this, type this command into your command prompt:
 
+	```bash
 	$ defaults write com.apple.finder AppleShowAllFiles YES
+	```
 
-Then restart Finder by right clicking the Finder icon while holding the *option/alt* key and choosing relaunch.
+1. Then restart Finder by right clicking the Finder icon while holding the *option/alt* key and choosing relaunch.
 
-![Relaunch Finder](finderRelaunch.png)
+	![Relaunch Finder](finderRelaunch.png)
 
 > [info]
 > It's easy to reverse this change - just follow the same steps, replacing `YES` with `NO`.
@@ -71,19 +79,17 @@ Then restart Finder by right clicking the Finder icon while holding the *option/
 
 Git and Github are super important and awesome tools for tracking, revising, and collaborating on code projects. Let's get your computer setup to use Git and Github.
 
-# First - install Git
+1. Install git if you haven't already.
 
 	```bash
 	$ brew install git
 	```
 
-Head over to [github.com](github.com) and sign up for an account using your personal email address if you don't already have one.
-
-# Second - Configuring Git
+1. Head over to [github.com](github.com) and sign up for an account using your personal email address if you don't already have one.
 
 1.  Configure your global username and email address.
 
-**‼️ IMPORTANT: If you skip this step, Git will produce a warning each time you push to a remote branch.**
+	**‼️ IMPORTANT: If you skip this step, Git will produce a warning each time you push to a remote branch.**
 
     ```bash
     $ git config --global user.name "Dani Roxberry"
@@ -92,11 +98,11 @@ Head over to [github.com](github.com) and sign up for an account using your pers
 
 1.  Optional. Configure additional, helpful settings:
 
-    * [**macOS/Linux**] Set the default text editor to VSCode:
+	* [**macOS/Linux**] Set the default text editor to VSCode:
 
-      ```bash
-      $ git config --global core.editor atom
-      ```
+	```bash
+	$ git config --global core.editor atom
+	```
 
 1.  Double-check your settings:
 
@@ -117,6 +123,8 @@ Head over to [github.com](github.com) and sign up for an account using your pers
     ```
 
 # Generating and Configuring SSH Keys
+
+SSH keys are a cryptographic way to secure your connection between your computer and github. Setting them up will make it so you don't have to login through your terminal when you are trying to push. Let's set them up.
 
 1.  Run the following commands.
 
@@ -139,15 +147,15 @@ Head over to [github.com](github.com) and sign up for an account using your pers
 
     * Test your setup by running `ssh -T git@example.com` (replacing `example.com` with your GitLab domain) and verifying that you receive a `Welcome to GitLab` message.
 
-      * Test using our Class Repository with this command: `ssh -T git@ucb.bootcampcontent.com`
+	* Test using our Class Repository with this command: `ssh -T git@ucb.bootcampcontent.com`
 
-      * You should receive the following output:
+	* You should receive the following output:
 
-        ```bash
-        $ ssh -T git@ucb.bootcampcontent.com
+		```bash
+		$ ssh -T git@ucb.bootcampcontent.com
 
-        Welcome to GitLab, Dani Roxberry!
-        ```
+		Welcome to GitLab, Dani Roxberry!
+		```
 
 1.  Add the key to [**GitHub**](https://github.com/settings/ssh/new):
 
@@ -157,8 +165,8 @@ Head over to [github.com](github.com) and sign up for an account using your pers
 
     * Test your setup by running `ssh -T git@github.com`:
 
-      ```bash
-      $ ssh -T git@github.com
+		```bash
+		$ ssh -T git@github.com
 
-      Hi droxey! You've successfully authenticated, but GitHub does not provide shell access.
-      ```
+		Hi droxey! You've successfully authenticated, but GitHub does not provide shell access.
+		```

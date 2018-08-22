@@ -13,13 +13,15 @@ There's long been a religious war between proponents of tabs and spaces in sourc
 
 To make sure we don't mess this up, let's have Atom help us out by emitting 4 spaces when pressing the tab key.
 
-Go to Atom Preferences, the Settings Tab and find the Soft Tabs option. Make sure it's checked.
+1. Go to Atom Preferences & Settings Tab
+1. Find the Soft Tabs option.
+1. Make sure it's checked.
 
-![Soft Tabs Checked](softTabs.png)
+	![Soft Tabs Checked](softTabs.png)
 
-Then scroll down and make sure tabs emit 4 spaces:
+1. Then scroll down and make sure tabs emit 4 spaces:
 
-![Tab Length 4](tabsLength.png)
+	![Tab Length 4](tabsLength.png)
 
 # Embedded Terminal Window Package
 
@@ -27,46 +29,46 @@ Let's install a new package to our Atom instance to make it work better for us.
 
 First we're going to get an embedded terminal in our Atom instance.
 
-Hit `command` + `shift` + `p` and type "install package" and hit "enter". Now you are on the Install Packages settings page of Atom.
+1. In Atom hit `command` + `shift` + `p` and type "install package" and hit "enter". Now you are on the Install Packages settings page of Atom.
 
-In the search bar type and install this package:
+1. In the search bar type and install this package:
 
-```
-platformio-ide-terminal
-```
+	```
+	platformio-ide-terminal
+	```
 
-To turn this terminal on and off hit `control` + `~`.
+1. To turn this terminal on and off hit `control` + `~`.
 
-![terminal window](terminal.gif)
+	![terminal window](terminal.gif)
 
 # Column Select (Many Cursors!)
 
 Atom already lets you use multiple cursors at the same time.
 
-Open a new file and type a Bart Simpson classic.
+1. Open a new file and type a Bart Simpson classic.
 
-```
-There is no such month as Rocktober
-There is no such month as Rocktober
-There is no such month as Rocktober
-There is no such month as Rocktober
-```
+	```
+	There is no such month as Rocktober
+	There is no such month as Rocktober
+	There is no such month as Rocktober
+	There is no such month as Rocktober
+	```
 
-Now `command` + `click` anywhere on the text. You'll see you can make many cursors and make edits.
+1. Now `command` + `click` anywhere on the text. You'll see you can make many cursors and make edits.
 
-Now click on any of the "Rocktober's" and hit `command` + `shift` + `D`. You can select and edit multiple instances.
+1. Now click on any of the "Rocktober's" and hit `command` + `shift` + `D`. You can select and edit multiple instances.
 
-To select and edit all the instances, put your cursor on "Rocktober" and hit `command` + `ctrl` + `G`.
+1. To select and edit all the instances, put your cursor on "Rocktober" and hit `command` + `ctrl` + `G`.
 
 But what about clicking and dragging many cursors? Let's install a package for that.
 
-Go back to the install settings page and type in this package and install it.
+1. Go back to the install settings page and type in this package and install it.
 
-```
-sublime-style-column-selection
-```
+	```
+	sublime-style-column-selection
+	```
 
-Now go back to your Bart Simpson phrases and hold `alt` and drag down the right side. of the text. Huzzah! Many cursors.
+1. Now go back to your Bart Simpson phrases and hold `alt` and drag down the right side. of the text. Huzzah! Many cursors.
 
 # Atom Python Packages
 

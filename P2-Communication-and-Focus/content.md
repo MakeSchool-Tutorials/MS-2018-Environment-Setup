@@ -7,29 +7,76 @@ People kept calling Einstein a genius. He got frustrated and said "Genius is foc
 
 # Turn Off All Desktop Notifications
 
-Head back over to system preferences, and click on "Notifications".
+Desktop Notifications are annoying and steal your time and productivity—what will make you a successful developer. Let's turn them off.
 
-Select Mail, Messages, Discord, Slack, Calendar, and any other app that might throw a lot of notifications and mark all of their alert styles to "None".
+1. Head back over to system preferences, and click on "Notifications".
+
+1. Select Mail, Messages, Discord, Slack, Calendar, and any other app that might throw a lot of notifications and mark all of their alert styles to "None".
 
 You will still check these apps, but you will check them on your time, not because they shoot a notification at you when you are trying to focus on something else.
 
 # WakaTime
 
-You are here to code, and what better service could you use than a "FitBit for Coding". So we've bought you one!
+You are here to code, and what better service could you use than a "FitBit for Coding". So we've bought you a free license for some excellent software that will give you insights into how and when and how much you code.!
 
 WakaTime was invented by one of Captain Rainbow's friends Alan Hamlett. It gives you and your coach the ability to see exactly how much you are coding, in which languages, and on what projects.
 
-**Step 1** - Go to [wakatime.com](https://www.wakatime.com) and register using your @students.makeschool.com email. **DO NOT SIGNUP WITH GITHUB**
-**Step 2** - Go to WakaTime's [Supported Editors](https://wakatime.com/editors) page and select any and all IDE's you use. I recommend [Atom](https://wakatime.com/atom) and [Xcode](https://wakatime.com/xcode) (if you are a mobile student). Follow thsoe instructions.
-**Step 3** - TEST! - Open your editor, start typing some stuff, then look in your wakatime dashboard and verify the connection has been made.
+1. **Step 1** - Go to [wakatime.com](https://www.wakatime.com) and register using your @students.makeschool.com email. **DO NOT SIGNUP WITH GITHUB**
+1. **Step 2** - Go to WakaTime's [Supported Editors](https://wakatime.com/editors) page and select any and all IDE's you use. I recommend [Atom](https://wakatime.com/atom) and [Xcode](https://wakatime.com/xcode) (if you are a mobile student). Follow those instructions.
+1. **Step 3** - TEST! - Open your editor, start typing some stuff, then look in your wakatime dashboard and verify the connection has been made.
 
 # Rescue Time & Self Control
 
-Here are some tools to not get distracted. Download them and install them, and then put a reminder on your calendar to try them out.
+Here are some tools to not get distracted.
+
+1. Download them and install them.
+1. Put a reminder on your calendar to try them out.
 
 [Rescue Time](https://www.rescuetime.com/)
 
 [Self Control](https://selfcontrolapp.com/)
+
+# Email Client
+
+You have at least 2 email addresses now, so let's use the Mail app on your computer to manage them both quickly.
+
+1. Hit `command`+`spacebar` and type "mail" and hit enter.
+
+1. Hit `command`+`,` to get to settings and do the following steps:
+
+1. Click "Accounts" and click "+"
+1. Add your personal email address
+1. Click "+" again and add your student email address
+1. Close the settings window
+
+Now you should have both of your email accounts present in your Mail client.
+
+# Smart Mailboxes: Unread
+
+Let's use SmartMailboxes to find and manage unread emails:
+
+1. Look for the line on the left side that says **Smart Mailboxes**.
+
+1. Click the "+" and create an **Unread** Smart Mailbox. This will pull all your unread emails into this smart mailbox
+
+    ![](unread-smart-mailbox.png)
+
+1. Drag the **Smart Mailboxes** up to the top of the left gutter for easy access.
+
+
+# Clean Up Old Unreads
+
+Sometimes you get a few hundred or thousand unread emails in the hole and it is impossible to mark them all as read. Take this time to start fresh and mark all your old emails as read.
+
+1. [Mark Entire Gmail Inbox as Read](https://smallbusiness.chron.com/mark-entire-gmail-inbox-read-72002.html)
+
+# Slack Desktop & Mobile
+
+It is critical that you have slack setup.
+
+1. Please download the Slack app on your phone and the [Desktop](https://slack.com/downloads/osx) client.
+1. Sign into the Product-College workspace.
+1. If you just downloaded the Desktop slack app, head back over to system preferences > notificaitons and turn off slack desktop notifications. #nonotifications
 
 # Setting Up Music
 
@@ -42,37 +89,3 @@ Take a minute to reflect on if you like to listen to music when you code, and if
 1. Listen to music without lyrics
 1. Setup radio stations or playlists that you like ahead of time so you can just hit play and not be interrupted for 2-3 hours.
 1. Use earbuds or over-ear headphones that block out other sound and show people that you are busy working and not to distract you.
-
-# Email Client
-
-Use the Mail app on your computer.
-
-Hit `command`+`spacebar` and type "mail" and hit enter.
-
-Hit `command`+`,` to get to settings and do the following steps:
-
-1. Click "Accounts" and click "+"
-1. Add your personal email address
-1. Click "+" again and add your student email address
-1. Close the settings window
-
-### Smart Mailboxes: Unread
-
-Look for the line on the left side that says **Smart Mailboxes**.
-
-Click the "+" and create an **Unread** Smart Mailbox. This will pull all your
-
-![](unread-smart-mailbox.png)
-
-
-### Clean Up Old Unreads
-
-Sometimes you get a few hundred or thousand unread emails in the hole and it is impossible to mark them all as read. Take this time to start fresh and mark all your old emails as read.
-
-[Mark Entire Gmail Inbox as Read](https://smallbusiness.chron.com/mark-entire-gmail-inbox-read-72002.html)
-
-# Slack Desktop & Mobile
-
-Please download the Slack app on your phone and the [Desktop](https://slack.com/downloads/osx) client.
-
-Sign into the Product-College workspace.

@@ -38,7 +38,6 @@ There is a hidden gesture in your mac that makes clicking and dragging, well, le
 
 Boom! Three finger drag!
 
-
 # Cheatsheet (Keyboard Shortcuts)
 
 The faster you are on your keyboard, the faster you can learn to code.
@@ -49,4 +48,5 @@ Here is a tool to find the keyboard shortcuts for any application you are using.
 
 [Cheatsheet](https://www.mediaatelier.com/CheatSheet/)
 
-Download and install it. Spend some time finding the keyboard shortcuts for your browser and Atom.
+1. Download and install it. 
+1. Spend some time finding the keyboard shortcuts for your browser and Atom.
