@@ -3,6 +3,8 @@ title: "Desktop & Trackpad"
 slug: desktop-and-trackpad
 ---
 
+Let's setup our desktop and some gestures on our trackpads.
+
 # Hiding the Dock (Maximizing Screen Space)
 
 You paid a lot for that computer, let's get the maximum space out of the screen. First we'll hide the dock.
