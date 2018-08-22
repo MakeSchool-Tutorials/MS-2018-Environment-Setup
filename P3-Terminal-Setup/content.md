@@ -139,34 +139,29 @@ SSH keys are a cryptographic way to secure your connection between your computer
 
 1.  With your mouse, highlight the entire [public key](https://en.wikipedia.org/wiki/Public-key_cryptography), beginning with `ssh-rsa` and ending with your email address. Copy the highlighted public key to the clipboard.
 
-1.  Add the key to [**GitLab**](http://ucb.bootcampcontent.com/profile/keys):
+### Add the key to [**GitHub**](http://github.com)
 
-    * Click the above link and paste your key in the 'Key' section and give it a relevant 'Title'. Use an identifiable title like 'Work Laptop - Windows 7' or 'Home MacBook Pro 15'.
+1. Click the above link and navigate to your account "Settings".
+1. Click on SSH and GPG Keys section.
+1. Paste your key in the 'Key' section and give it a relevant 'Title'. Use an identifiable title like 'Work Laptop - Windows 7' or 'Home MacBook Pro 15'.
+1. **Make sure you copied the entire key starting with `ssh-rsa` and ending with your email.**
+1. Test your setup by running `ssh -T git@example.com` (replacing `example.com` with your GitLab domain) and verifying that you receive a `Welcome to GitLab` message.
+1. Test using our Class Repository with this command: `ssh -T git@ucb.bootcampcontent.com`
+1. You should receive the following output:
 
-    * **Make sure you copied the entire key starting with `ssh-rsa` and ending with your email.**
+	```bash
+	$ ssh -T git@ucb.bootcampcontent.com
 
-    * Test your setup by running `ssh -T git@example.com` (replacing `example.com` with your GitLab domain) and verifying that you receive a `Welcome to GitLab` message.
-
-	* Test using our Class Repository with this command: `ssh -T git@ucb.bootcampcontent.com`
-
-	* You should receive the following output:
-
-		```bash
-		$ ssh -T git@ucb.bootcampcontent.com
-
-		Welcome to GitLab, Dani Roxberry!
-		```
+	Welcome to GitLab, Dani Roxberry!
+	```
 
 1.  Add the key to [**GitHub**](https://github.com/settings/ssh/new):
+1. Click the above link and paste your key in the 'Key' section and give it a relevant 'Title'. Use an identifiable title like 'Work Laptop - Windows 7' or 'Home MacBook Pro 15'.
+1. **Make sure you copied the entire key starting with `ssh-rsa` and ending with your email.**
+1. Test your setup by running `ssh -T git@github.com`:
 
-    * Click the above link and paste your key in the 'Key' section and give it a relevant 'Title'. Use an identifiable title like 'Work Laptop - Windows 7' or 'Home MacBook Pro 15'.
+	```bash
+	$ ssh -T git@github.com
 
-    * **Make sure you copied the entire key starting with `ssh-rsa` and ending with your email.**
-
-    * Test your setup by running `ssh -T git@github.com`:
-
-		```bash
-		$ ssh -T git@github.com
-
-		Hi droxey! You've successfully authenticated, but GitHub does not provide shell access.
-		```
+	Hi droxey! You've successfully authenticated, but GitHub does not provide shell access.
+	```
