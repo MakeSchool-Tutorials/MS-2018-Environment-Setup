@@ -56,7 +56,7 @@ Atom already lets you use multiple cursors at the same time.
 
 1. Now `command` + `click` anywhere on the text. You'll see you can make many cursors and make edits.
 
-1. Now click on any of the "Rocktober's" and hit `command` + `shift` + `D`. You can select and edit multiple instances.
+1. Now click on any of the "Rocktober's" and hit `command` + `D`. You can select and edit multiple instances.
 
 1. To select and edit all the instances, put your cursor on "Rocktober" and hit `command` + `ctrl` + `G`.
 
