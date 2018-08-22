@@ -3,9 +3,9 @@ title: "Terminal Setup"
 slug: terminal-setup
 ---
 
-# Making Your Terminal Professional
+A developer lives in their terminal. So we're going to make our terminal pretty and work well.
 
-A developer lives in their terminal. So we're going to make our terminal pretty :D.
+# Making Your Terminal Professional
 
 Use the keyboard shortcut `command` + `spacebar` and type "terminal" to open your terminal.
 
