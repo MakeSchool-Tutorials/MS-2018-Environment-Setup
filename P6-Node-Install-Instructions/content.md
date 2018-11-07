@@ -91,3 +91,7 @@ Node.js has many many versions, and different projects will require you to run a
     ```
 
 Great work!
+
+# Insomina REST Client
+
+You'll be building APIs with Node.js (and other server stacks!) and you'll probably want to inspect them with a REST Client. There is a great free one called [Insomina](https://insomnia.rest/). Please click this link and install the client for use.
