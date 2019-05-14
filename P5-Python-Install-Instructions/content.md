@@ -5,24 +5,6 @@ slug: python-install-instructions
 
 Everyone will be using Python for all your Computer Science courses, so we'll take this time to set the language up on your computer.
 
-# Homebrew
-
-Homebrew is a package manager for Mac OS. It makes it easy to install software packages while also installing and managing their dependencies. For more information, see the [Homebrew website](http://brew.sh/)
-
-To install Homebrew, run this terminal command, which will download and run an install script:
-
-```bash
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-If you already have Homebrew installed, you need to update your formulae by running:
-
-```bash
-$ brew update
-```
-
-This may take several minutes to download updates, so be patient while it completes.
-
 # Python Environment
 
 Make sure you install the iOS environment first - the instructions assume you have, because you will need Command Line Tools and Homebrew installed already.
