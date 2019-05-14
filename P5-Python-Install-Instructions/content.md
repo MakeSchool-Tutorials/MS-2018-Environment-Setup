@@ -9,17 +9,21 @@ Everyone will be using Python for all your Computer Science courses, so we'll ta
 
 Make sure you install the iOS environment first - the instructions assume you have, because you will need Command Line Tools and Homebrew installed already.
 
-## Python 3
+# Python 3
 
 OS X comes with a version of Python (2.7) installed by default. We can call that the *system Python*. But that version is old! Python 3 was released in 2008, and it came with a bunch of syntax changes that were incompatible with 2.x versions of Python. This created a fork in the language, as many large Python projects (including many helpful libraries) didn't want to invest the time to convert to 3.x.  But that was then; it's now recommended that all new Python projects are made in Python 3.x. For more information, see [this article](https://wiki.python.org/moin/Python2orPython3).
 
-So we're going to install the newest Python.
+So we're going to install the newest Python!
 
 *These instructions are derived from [this great post](http://www.marinamele.com/2014/07/install-python3-on-mac-os-x-and-use-virtualenv-and-virtualenvwrapper.html)*.
 
-Use Homebrew to install Python 3 and its dependencies:
-
-	$ brew install python3
+> [action]
+>
+> Use Homebrew to install Python 3 and its dependencies:
+>
+```bash
+$ brew install python3
+```
 
 Once that's finished, you should be able to see which version of Python is installed like this:
 
@@ -33,18 +37,26 @@ By default, `pip` and `pip3` install packages into a directory used by Python sy
 
 `virtualenv` is the solution to this problem. Here's the [official documentation](https://virtualenv.pypa.io/en/latest/), but the TL;DR is that for each project it creates a virtual environment in which packages are installed, and ensures that the project is not dependent on any packages outside the virtual environment.
 
-To install `virtualenv`, use the following command
-
-	$ pip3 install virtualenv
+> [action]
+>
+> To install `virtualenv`, use the following command
+>
+```bash
+$ pip3 install virtualenv
+```
 
 As you create each Python project, you will also want to create an associated virtual environment in which you can install packages.
 
 ## Testing It Out
 
-Now we can test our environment. Restart Atom. Then create a new file and save it as `test.py`. Or *anything*`.py` really, but make sure the filename has the `.py` extension so that Atom knows that it's Python source code.
+Now we can test our environment!
 
-Try testing some gibberish in the editor - you should see the linter issues appear at the bottom:
-
+> [action]
+>
+> 1. Restart Atom.
+> 1. Create a new file and save it as `test.py`, or *anything*`.py` really, but make sure the filename has the `.py` extension so that Atom knows that it's Python source code.
+> 1. Try testing some gibberish in the editor - you should see the linter issues appear at the bottom:
+>
 ![Linter Issues](linterIssues.png)
 
 
@@ -56,53 +68,85 @@ We're going to install some packages for Atom that makes writing Python much fas
 
 First we'll use the Atom Package Manager to install `linter`. Linter provides a single api that all the language-specific linters can use to interact with Atom.
 
-	$ apm install linter
+> [action]
+>
+> Run the following in your terminal to install the atom linter:
+>
+```bash
+$ apm install linter
+```
 
-*If that didn't work and you see an error like `-bash: apm: command not found`, you need to install `apm` as a shell command accessible from the Terminal. In the menu, go to Atom --> Install Shell Commands and try again.*
-
-Next we'll install the Python linting package, which is called `flake8`. There are two components - one which is a Python package, which takes the actual Python text and checks it with the compiler. We'll install that now.
-
-	$ pip3 install flake8
-	$ pip3 install flake8-docstrings
-
-The other component is the Atom package that acts as the glue between `flake8` and `linter` to provide Atom with the real time validation.
-
-	$ apm install linter-flake8
-
-Finally, we have to make some changes to Atom. First we'll change the init script that runs every time Atom is opened.
-
-In the menu, go to Atom --> Open Your Init Script.
-
-![Open Your Init Script](openInitScript.png)
-
-Add the following line at the bottom:
-
-	process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')
-
-Save that file.
-
-Next we need to change a setting in the `linter-flake8` package. Go to the Atom Preferences page from the Atom menu. Click the packages menu item.
-
-![Packages](packages.png)
-
-Find the `linter-flake8` package and click the settings button.
-
-*NOTE: If you don't see a settings button, try restarting Atom. Also ensure that you installed Atom into your Applications directory and that you're running that Atom.*
-
-![linter-flake8](linterflake8.png)
-
-Find the executable path setting:
-
-![Executable Path Setting](executablePath.png)
-
-To figure out where the `flake8` executable is located in our filesystem, we can use the `which` command. Go to the terminal and type:
-
-	$ which flake8
-
-Take the result of that command, and paste it into the exectuable path setting in Atom.
+<!-- -->
 
 > [info]
 >
-In my case, `flake8` was here:
+> If that didn't work and you see an error like `-bash: apm: command not found`, you need to install `apm` as a shell command accessible from the Terminal. In the menu, go to Atom --> Install Shell Commands and try again.*
+
+Next we'll install the Python linting package, which is called `flake8`. There are two components - one which is a Python package, which takes the actual Python text and checks it with the compiler.
+
+> [action]
 >
-	/Library/Frameworks/Python.framework/Versions/3.5/bin/flake8
+> We'll install that that first component now:
+>
+```bash
+$ pip3 install flake8
+$ pip3 install flake8-docstrings
+```
+
+The other component is the Atom package that acts as the glue between `flake8` and `linter` to provide Atom with the real time validation.
+
+> [action]
+>
+> Install the atom package now:
+>
+```bash
+$ apm install linter-flake8
+```
+
+Finally, we have to make some changes to Atom. First we'll change the init script that runs every time Atom is opened. We need to do this so that Atom can correctly find the packages.
+
+> [action]
+>
+> In the menu, go to Atom --> Open Your Init Script.
+>
+![Open Your Init Script](openInitScript.png)
+>
+> Add the following line at the bottom:
+>
+`process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')`
+>
+> Save that file.
+>
+> Restart Atom now so that the changes and installs can fully complete
+
+Next we need to change a setting in the `linter-flake8` package:
+
+> [action]
+>
+> Go to the Atom Preferences page from the Atom menu. Click the packages menu item.
+>
+![Packages](packages.png)
+>
+> Find the `linter-flake8` package and click the settings button.
+>
+> **NOTE**: *If you don't see a settings button, try restarting Atom. Also ensure that you installed Atom into your Applications directory and that you're running that Atom.*
+>
+> ![linter-flake8](linterflake8.png)
+>
+> Find the executable path setting:
+>
+> ![Executable Path Setting](executablePath.png)
+>
+> To figure out where the `flake8` executable is located in our filesystem, we can use the `which` command. Go to the terminal and type:
+>
+```bash
+$ which flake8
+```
+>
+> Take the result of that command, and paste it into the executable path setting in Atom.
+
+<!-- -->
+
+> [info]
+>
+> In my case, `flake8` was here: `/usr/local/bin/flake8`
