@@ -9,19 +9,27 @@ You should update and install your iOS development environment before the Python
 
 Install the Xcode Command Line Tools, which is a bundle of command-line based software for developers. It includes things like `git`, `gcc` and `clang`. For a complete list, see [this article](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/).
 
-Install Command Line Tools by running this command in terminal:
-
+> [action]
+>
+> Install Command Line Tools by running this command in terminal:
+>
 ```bash
 $ xcode-select --install
 ```
 
-> [info]
-> Whenever you see code prefixed with a dollar sign $, that indicates that it's a command to be entered in the command prompt. Don't include the $ when you paste the command in.
-
 # Download Xcode (ONLY MOBILE STUDENTS)
 
-To install Xcode 9, you need Mac OS 10.13.2 or newer, so you should install/upgrade that first if yours is older than that.
+To install the latest version of Xcode, you need the latest version of Mac OS before you install Xcode.
 
-Then Xcode 9 is an easy download in the Mac App Store. After it's installed, you should open Xcode to allow it to do some additional installation and configuration. Note that if you have been using the beta version of Xcode 9 before, you need to delete this from your computer and then your Xcode 8 version will just be upgraded through the App Store (so you should end up with only one version of Xcode).
+> [action]
+>
+> 1. On the upper left corner, click the apple icon, and click `About This Mac`
+> 1. From the `Overview` tab, click on `Software Update`, and if there are any updates available, install them.
 
-**DO NOT INSTALL Xcode 10** as it is still in beta.
+From here, Xcode is an easy download in the Mac App Store:
+
+> [action]
+>
+> Open the App Store on your laptop and search for `Xcode`. From there, install it!
+
+After it's installed (this will take some time, it's not a quick download), you should open Xcode to allow it to do some additional installation and configuration. Note that you should **not install a beta version of Xcode!** Only install a production version through the app store.
