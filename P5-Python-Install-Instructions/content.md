@@ -59,6 +59,15 @@ Now we can test our environment!
 >
 ![Linter Issues](linterIssues.png)
 
+# VS Code Package
+
+VS Code is built to handle Microsoft's stack (C#, ASP.NET, etc.) and webstack (HTML/CSS/JS) right out of the box, but requires a little bit of help for Python. It's really easy though! If you're using VS Code as your text editor, make sure to install an extension that supports Python, and then you're all set!
+
+[action]
+>
+> Install [this python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for VS Code
+
+Restart VS Code and open up a `.py` file to test out that everything is working smoothly!
 
 # Atom Python Packages
 
