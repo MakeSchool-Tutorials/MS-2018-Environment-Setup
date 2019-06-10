@@ -192,11 +192,13 @@ Hi droxey! You have successfully authenticated, but GitHub does not provide shel
 
 Now that you have a general understanding of git, practice your skills at [Learn Git Branching](https://learngitbranching.js.org/). This is a great way to learn and practice the basics of git from the browser with a guided tutorial.
 
-Complete at least the following sections:
-
-* On the `Main` tab, do the `Introduction Sequence`, parts 1-4
-* On the `Remote` tab, do Push and Pull Git Remotes, parts 1-7
-* Complete extra sections to level up your git skills even more
+> [action]
+>
+> Complete at least the following sections from [Learn Git Branching](https://learngitbranching.js.org/):
+>
+>- On the `Main` tab, do the `Introduction Sequence`, parts 1-4
+>- On the `Remote` tab, do Push and Pull Git Remotes, parts 1-7
+>- Complete extra sections to level up your git skills even more
 
 ## Extra Resources
 
