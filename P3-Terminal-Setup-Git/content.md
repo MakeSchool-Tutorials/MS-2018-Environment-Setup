@@ -1,5 +1,5 @@
 ---
-title: "Terminal Setup"
+title: "Terminal Setup + Git"
 slug: terminal-setup
 ---
 
@@ -103,6 +103,15 @@ This may take several minutes to download updates, so be patient while it comple
 
 Git and Github are super important and awesome tools for tracking, revising, and collaborating on code projects. Let's get your computer setup to use Git and Github.
 
+## Why Use Git?
+In short, developers use git to collaborate on a project simultaneously and save snapshots of different versions of the project.
+
+Watch this 5 min video by Paul Programming where he explains the value of using git:
+
+![ms-video-youtube](https://www.youtube.com/watch?v=OqmSzXDrJBk)
+
+## Install / Setup
+
 > [action]
 >
 > 1. Install git if you haven't already.
@@ -178,3 +187,20 @@ $ ssh -T git@github.com
 >
 Hi droxey! You have successfully authenticated, but GitHub does not provide shell access.
 ```
+
+# Practice Git
+
+Now that you have a general understanding of git, practice your skills at [Learn Git Branching](https://learngitbranching.js.org/). This is a great way to learn and practice the basics of git from the browser with a guided tutorial.
+
+Complete at least the following sections:
+
+* On the `Main` tab, do the `Introduction Sequence`, parts 1-4
+* On the `Remote` tab, do Push and Pull Git Remotes, parts 1-7
+* Complete extra sections to level up your git skills even more
+
+## Extra Resources
+
+* [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
+* [Learn Git in 30 Minutes Tutorial](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
+* [Git-Tower.com - Learn Version Control with Git - Ebook](https://www.git-tower.com/learn/git/ebook/en/command-line/introduction)
+* [Git-Tower.com - Learn Version Control with Git - Videos 1-8](https://www.git-tower.com/learn/git/videos#episodes)
