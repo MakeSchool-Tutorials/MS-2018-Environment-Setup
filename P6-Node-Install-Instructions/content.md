@@ -101,6 +101,15 @@ Now you can list what versions of Node.js you have on your machine and see which
 
 Great work!
 
+> [info]
+>
+> **Read if Step 4 caused a `plugin 'zsh-nvm' not found` error:**
+>
+> 1. [Follow the removal instructions](https://github.com/nvm-sh/nvm/blob/master/README.md#removal) for nvm.
+> 1. [Follow the installation steps for oh-my-zsh for this plugin](https://github.com/lukechilds/zsh-nvm#as-an-oh-my-zsh-custom-plugin).
+>
+> From there try running steps 4 and 5 again, and your error should hopefully be resolved! If not, please reach out to a Make School staff member for assistance.
+
 # Postman REST Client
 
 You'll be building APIs with Node.js (and other server stacks!) and you'll probably want to inspect them with a REST Client. There is a great free one called [Postman](https://www.getpostman.com/).
