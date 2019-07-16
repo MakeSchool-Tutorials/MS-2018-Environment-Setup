@@ -125,16 +125,16 @@ Watch this 5 min video by Paul Programming where he explains the value of using 
 >
 > **‼️ IMPORTANT: If you skip this step, Git will produce a warning each time you push to a remote branch.**
 >
-    ```bash
-    $ git config --global user.name "YOUR_NAME"
-    $ git config --global user.email "YOUR_PERSONAL_EMAIL@example.com"
-    ```
+```bash
+$ git config --global user.name "YOUR_NAME"
+$ git config --global user.email "YOUR_PERSONAL_EMAIL@example.com"
+```
 >
 > **Optional:** Configure additional, helpful settings, such as setting the default text editor to Atom:
 >
-	```bash
-	$ git config --global core.editor atom
-	```
+```bash
+$ git config --global core.editor atom
+```
 >
 > Finally, double-check your settings:
 >
