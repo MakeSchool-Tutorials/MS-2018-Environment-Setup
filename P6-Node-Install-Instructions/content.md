@@ -116,7 +116,7 @@ You'll be building APIs with Node.js (and other server stacks!) and you'll proba
 
 > [action]
 >
-> Please click this link and install the client for use> [action]
+> Please click the above Postman link and install the client for later use. You'll need it for BEW 1.1, which is part of the core curriculum that all students must take.
 
 
 That's all for now, your environment should be ready to go!
