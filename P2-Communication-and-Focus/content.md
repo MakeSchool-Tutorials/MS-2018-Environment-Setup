@@ -25,7 +25,7 @@ You are here to code, and what better service could you use than a "FitBit for C
 > [action]
 >
 > 1. Go to [wakatime.com](https://www.wakatime.com) and register using your @students.makeschool.com email. **DO NOT SIGNUP WITH GITHUB**
-> 1. Go to WakaTime's [Supported Editors](https://wakatime.com/editors) page and select any and all IDE's you use. I recommend [Atom](https://wakatime.com/atom) and [Xcode](https://wakatime.com/xcode) (if you are a mobile student). Follow those instructions.
+> 1. Go to WakaTime's [Supported Editors](https://wakatime.com/editors) page and select any and all IDE's you use. We recommend [VS Code](https://wakatime.com/vs-code) and [Xcode](https://wakatime.com/xcode) (if you are a mobile student). Follow those instructions.
 > 1. TEST! - Open your editor, start typing some stuff, then look in your wakatime dashboard and verify the connection has been made.
 
 # Rescue Time & Self Control

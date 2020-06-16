@@ -59,8 +59,10 @@ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh 
 > **Step 2:** Because we are using zsh ("Z-Shell") we need to add an nvm extension to our zsh configuration file: `.zshrc`. Open that file with this command.
 >
 ```bash
-$ atom ~/.zshrc
+$ code ~/.zshrc
 ```
+>
+> If the above didn't work (i.e. you get a "command code not found" error), make sure you followed [these instructions](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) so that typing `code` in your terminal will launch VS Code!
 >
 > **Step 3:** Edit that file and add the `zsh-nvm` plugin and the export command below. Follow the comments that say to ADD items. This should be somewhere around line 65 in the file
 >

@@ -130,12 +130,6 @@ $ git config --global user.name "YOUR_NAME"
 $ git config --global user.email "YOUR_PERSONAL_EMAIL@example.com"
 ```
 >
-> **Optional:** Configure additional, helpful settings, such as setting the default text editor to Atom:
->
-```bash
-$ git config --global core.editor atom
-```
->
 > Finally, double-check your settings:
 >
 ```bash
